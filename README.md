@@ -1,6 +1,6 @@
 # Handwriting-Number-Recognition
 Takes 20x20 handwritten images as input and uses one-vs-all regularized logistic regression in order to train a neural network to discern each number (0-9). 
-Cross validation is used on various models to determine the best decay parameters and number of hidden layers. 
+10-fold Cross validation is used on various models to determine the best decay parameters and number of hidden layers. 
 
 The Recognition.m file is the main file that performs the image recognition when run.
 The ThetaWeights.mat file is a text file containing all the weights used in the neural network.
