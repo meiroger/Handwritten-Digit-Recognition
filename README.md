@@ -1,4 +1,4 @@
-# Handwriting-Number-Recognition
+# Handwritten-Digit-Recognition
 Takes 20x20 handwritten images as input and uses one-vs-all regularized logistic regression in order to train a neural network to discern each number (0-9). 
 10-fold Cross validation is used on various models to determine the best decay parameters and number of hidden layers. 
 
